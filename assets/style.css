@@ -74,3 +74,12 @@ header,
 .mainh{
   color: #181818;
 }
+
+.mainp{
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #181818;
+  font-style: normal;
+  font-size: 16.2px;
+  opacity: 0.8;
+}
