@@ -83,3 +83,40 @@ header,
   font-size: 16.2px;
   opacity: 0.8;
 }
+
+maincolor {
+  color: #181818;
+}
+
+
+@media (min-width: 1025px) {
+  .mylogo {
+    font-size: 25.6px;
+  }
+  .mainl {
+    padding-left: 5%;
+  }
+  .mainh {
+    font-size: 65px;
+    padding-top: 15%;
+  }
+  .mainh2 {
+    font-size: 57px;
+    padding-top: 15%;
+  }
+  .mainh3 {
+    font-size: 57%;
+  }
+  .premium {
+    font-size: 57px;
+    color: #0b1b3f;
+  }
+  .quotep {
+    font-size: 25px;
+    color: #181818;
+    font-weight: 600;
+  }
+  .serviceh {
+    font-size: 58px;
+  }
+}
