@@ -138,3 +138,27 @@ maincolor {
   .view {
     height: 75%;
   }
+  .mainl {
+    padding-left: 5%;
+  }
+  .mainh {
+    padding-top: 5%;
+    font-size: 40px;
+  }
+}
+
+@media only screen and
+(min-device-width: 1024px) and
+(max-device-width: 1366px) and
+(-webkit-min-device-pixel-ratio: 2) {
+  .mainl {
+    padding-left: 5%;
+  }
+  .mainh {
+    padding-top: 15%;
+    font-size: 50px;
+  }
+  #img2 {
+    transform: scaleX(-1);
+  }
+}
