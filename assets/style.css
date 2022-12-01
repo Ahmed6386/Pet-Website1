@@ -120,3 +120,21 @@ maincolor {
     font-size: 58px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .mob-pad {
+    padding-top: 70px;
+  }
+}
+
+
+@media only screen and
+(min-device-width: 768px) and
+(max-device-width: 1024px) and
+(-webkit-min-device-pixel-ratio: 2) {
+  html,
+  body,
+  header,
+  .view {
+    height: 75%;
+  }
