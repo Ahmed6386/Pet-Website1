@@ -25,3 +25,9 @@ header,
 .navbar .nav-link {
   color: rgb(10, 9, 9);
 }
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ed6436;
+  text-decoration: none;
+}
